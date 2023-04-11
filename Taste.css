@@ -1,0 +1,273 @@
+
+.nav-flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	width: 100%;
+	padding: 0;
+}
+.home{
+    font-family: cursive;
+    color: aqua;
+}
+.nav-flex-row li {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px 15px;
+}
+.nav-heading{
+	font-size:30px;
+	font-family:"Monoton";
+	font-weight:bold;
+	color:#ffffff;
+}
+.nav-flex-row li a {
+	font-family: "Roboto";
+	color: #ffffff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.nav-flex-row li a:hover{
+	background: #E7E7E7;
+}
+
+.section-intro {
+	height: 100vh;
+	background-image:url(https://png.pngtree.com/background/20210710/original/pngtree-black-meat-western-food-banner-background-picture-image_1013905.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+	height:100vh;
+}
+
+.section-intro h1 {
+	text-align: center;
+	color:#ffffff;
+	font-size: 4em;
+	font-weight: 700;
+}
+
+.section-intro header {
+	display: flex;
+	flex: 4;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.link-to-book-wrapper {
+	flex: 1;
+}
+
+.about-section {
+	display: flex;
+	align-items: center;
+	background-color: #f3f3f3c0;
+	padding: 50px 30px;
+}
+
+.link-to-book {
+	color: #ffffff;
+	display: block;
+	border: 2px solid #ffffff;
+	padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+	background-color: #ffffff;
+	color: #95999e;
+	text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+
+.carousel-inner {
+	height: 700px;
+}
+
+.row-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column-form {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 30px 20px;
+}
+
+.btn.btn-primary {
+	font-family: 'Big Shoulders Text', cursive;
+	color: #ffffff;
+	background-color: #95999e;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	border: 0;
+}
+
+.btn.btn-primary:hover {
+	background-color: #747474;
+}
+.opening-time,
+.contact-address {
+	flex: 1;
+	margin: 30px 20px;
+	font-size: 1.2em;
+}
+
+.form-group p {
+	font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-address p span {
+	display: block;
+}
+
+	.container-fluid{
+
+	background-color:#ffffff;
+	height: 23px;
+	width: 37px;
+}
+
+@media (min-width:577px) and (max-width: 800px) {
+
+	.section-intro {
+		height: 500px;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 20px;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.row-flex {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.section-intro {
+		height: 300px;
+	}
+
+	.about-section {
+		padding: 30px;
+	}
+
+	.section-intro h1 {
+		font-size: 2em;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 15px;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.row-flex {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.row-flex h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.form-group p {
+		font-size: 15px;
+	}
+
+	.opening-time p span,
+	.contact-address p span {
+		font-size: 15px;
+		text-align: center;
+	}
+
+}
+#myInput {
+	background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+	background-position: 10px 12px; /* Position the search icon */
+	background-repeat: no-repeat; /* Do not repeat the icon image */
+	width: 100%; /* Full-width */
+	font-size: 16px; /* Increase font-size */
+	padding: 12px 20px 12px 40px; /* Add some padding */
+	border: 1px solid #ddd; /* Add a grey border */
+	margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myTable {
+	border-collapse: collapse; /* Collapse borders */
+	width: 100%; /* Full-width */
+	border: 1px solid #ddd; /* Add a grey border */
+	font-size: 18px; /* Increase font-size */
+  }
+  
+  #myTable th, #myTable td {
+	text-align: left; /* Left-align text */
+	padding: 12px; /* Add padding */
+  }
+  
+  #myTable tr {
+	/* Add a bottom border to all table rows */
+	border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+	/* Add a grey background color to the table header and on hover */
+	background-color: #f1f1f1;
+  }
+  
+		* {
+			margin: 0;
+			padding: 0;
+			outline: none;
+			box-sizing: border-box;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		/* Body of the page */
+		body {
+			background: #f2f2f2;
+		}
+
+		/* Styling all the elements in nav as a whole */
+		nav {
+			background: #83054a;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-between;
+			height: 70px;
+			padding: 0 100px;
+		}
+		
+		
